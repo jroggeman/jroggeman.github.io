@@ -14,7 +14,13 @@ nav {
         list-style-type: none;
 
         li {
-            display: inline-block;
+            @include size-greater-than($desktop) {
+                display: inline-block;
+            }
+
+            @include size-less-than($desktop) {
+                display: block;
+            }
 
             a {
                 padding: 10px;
