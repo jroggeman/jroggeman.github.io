@@ -1,0 +1,12 @@
+---
+# Required by front matter
+---
+
+@import 'breakpoints';
+/* CSS */
+
+@include size-less-than($desktop) {
+    html {
+        color: red;
+    }
+}
