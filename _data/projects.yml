@@ -1,7 +1,15 @@
 - name: Handy
   url: https://github.com/Pitt-CSC/handy
-  description: Take attendance using text messages!
+  summary: Take attendance using text messages!
+  description: Handy is a Rails app I created my sophomore year in college as a
+      way to take attendance at Computer Science Club meetings (and as an excuse
+      to learn Rails).  We generate a random, unique token for each event (some
+      combination of two nouns, such as <code>battle celery</code>), and have the
+      club members send that token as a text to a Twilio number.
 
 - name: Examinatr
   url: https://github.com/jroggeman/examinatr
-  description: Create and manage exams.
+  summary: Create and manage exams.
+  description: Examinatr is another Rails app I created during my senior year in college
+      to manage exams for a professor.  It started as an ordinary Rails app, but has grown
+      into an SPA (and an excuse to learn Ember).
