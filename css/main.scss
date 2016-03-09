@@ -3,10 +3,13 @@
 ---
 
 @import 'breakpoints';
+@import 'typography';
 /* CSS */
 
+/* TODO: HERE AS EXAMPLE
 @include size-less-than($desktop) {
     html {
         color: red;
     }
 }
+*/
