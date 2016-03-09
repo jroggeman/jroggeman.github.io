@@ -1,10 +1,12 @@
+$foreground-color: #333;
+
+// Offset body
 body {
     margin-top: 39px;
 }
 
 nav {
-    // TODO: dev colors
-    background-color: #333;;
+    background-color: $foreground-color;
     color: white;
 
     // Item display
@@ -25,7 +27,7 @@ nav {
 
                 &:hover {
                     background-color: $background-color;
-                    color: #333;
+                    color: $foreground-color;
                 }
             }
         }

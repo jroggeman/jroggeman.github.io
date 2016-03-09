@@ -29,6 +29,7 @@ h2 {
     font-size: 1.5em;
 }
 
+// Simple wrapper
 .container {
     width: 800px;
     margin-left: auto;
@@ -38,16 +39,9 @@ h2 {
 
 #projects {
     li {
+        // Visual
         list-style-type: none;
-        margin-bottom: 10px;
-        box-shadow: 0px 1px 5px #AAA;
         background-color: white;
-        transition: box-shadow 0.2s;
-
-        &:hover {
-            //background-color: #F8F8F8;
-            box-shadow: 0px 5px 5px #AAA;
-        }
 
         h2 {
             margin-bottom: 10px;
@@ -58,6 +52,18 @@ h2 {
             display: inline;
         }
 
+        // Spacing
+        margin-bottom: 10px;
+
+        // Material
+        box-shadow: 0px 1px 5px #AAA;
+        transition: box-shadow 0.2s;
+
+        &:hover {
+            box-shadow: 0px 5px 5px #AAA;
+        }
+
+        // Reset link, make div clickable
         a {
             padding: 15px;
             color: black;
