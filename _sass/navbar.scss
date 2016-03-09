@@ -1,0 +1,38 @@
+body {
+    margin-top: 39px;
+}
+
+nav {
+    // TODO: dev colors
+    background-color: #333;;
+    color: white;
+
+    // Item display
+    ul {
+        list-style-type: none;
+
+        li {
+            display: inline-block;
+
+            a {
+                padding: 10px;
+                color: white;
+                text-transform: uppercase;
+                text-decoration: none;
+                display: block;
+                letter-spacing: 3px;
+                font-weight: normal;
+
+                &:hover {
+                    background-color: white;
+                    color: #333;
+                }
+            }
+        }
+    }
+
+    // Sticky navbar
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
