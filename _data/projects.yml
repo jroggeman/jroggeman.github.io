@@ -1,0 +1,7 @@
+- name: Handy
+  url: https://github.com/Pitt-CSC/handy
+  description: Take attendance using text messages!
+
+- name: Examinatr
+  url: https://github.com/jroggeman/examinatr
+  description: Create and manage exams.
