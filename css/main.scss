@@ -34,13 +34,21 @@ h2 {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
-    padding: 10px;
+
+    margin-top: 70px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+    background-color: #D8D8D8;
+    box-shadow: 0px 5px 5px #929292;
 
     @include size-less-than($desktop) {
     }
 }
 
-#projects {
+#card-list {
     li {
         // Visual
         list-style-type: none;
@@ -62,7 +70,11 @@ h2 {
 
         p {
             text-indent: 30px;
-            display: inline;
+
+            // Required for text indent; reset margins
+            display: inline-block;
+            margin-top: 0px;
+            margin-bottom: 0px;
         }
 
         // Spacing
@@ -77,7 +89,7 @@ h2 {
         }
 
         // Reset link, make div clickable
-        a {
+        .card-wrapper {
             padding: 15px;
             color: black;
             text-decoration: none;

@@ -1,0 +1,14 @@
+- company: Microsoft
+  summary: dev tools and distributed systems
+  description: Last summer, I interned at Microsoft as a member of Bing's internal
+      dev tools team.  I contributed significantly to a new source code management
+      product, as well as designing and coding some basic infrastructure for a new
+      distributed job management system.
+
+- company: Pitt
+  summary: web dev
+  description: Two summers ago, I worked with Dr. Labrinidis to design and implement
+      a few web apps for Pitt's CS department.  Working with Laravel and Angular, I
+      created an app to easily track departmental finances, an app to manage project
+      deadlines for grad students, and an app that attempted to intelligently
+      filter and organize tweets from a given list of users.
