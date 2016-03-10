@@ -67,7 +67,6 @@ h2 {
 .card-list {
     li {
         list-style-type: none;
-        margin-bottom: 10px;
     }
 }
 
@@ -78,6 +77,7 @@ h2 {
     display: block;
     height: 100%;
     font-size: 1.2em;
+    margin-bottom: 10px;
 
     background-color: $card-color;
 
@@ -87,10 +87,6 @@ h2 {
 
     &:hover {
         box-shadow: 0px 5px 5px $shadow-color;
-    }
-
-    &.non-list {
-        margin-bottom: 10px;
     }
 }
 
