@@ -31,7 +31,6 @@ nav {
 
                 &:hover {
                     background-color: $background-color;
-                    //color: $navbar-color;
                 }
             }
         }
@@ -41,4 +40,49 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
+}
+
+.nav-mobile-top {
+    padding: 10px;
+
+    @include size-greater-than($desktop) {
+        display: none;
+    }
+
+    button {
+        float: right;
+        background-color: $navbar-color;
+        border: 0;
+        cursor: pointer;
+        margin: 0;
+        position: relative;
+        top: -5px;
+        box-sizing: content-box;
+
+        span {
+            background: #CCC;
+            border-radius: 10px;
+            display: block;
+            height: 3px;
+            width: 23px;
+            margin-top: 4px;
+        }
+
+        &:hover span {
+            background: #AAA;
+        }
+    }
+}
+
+.nav-mobile-collapse {
+    @include size-less-than($desktop) {
+        transition: max-height 0.5s ease-out;
+        max-height: 0;
+        overflow: hidden;
+
+        &.active {
+            opacity: 1;
+            max-height: 400px;
+        }
+    }
 }
