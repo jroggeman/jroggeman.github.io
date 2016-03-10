@@ -86,12 +86,22 @@ h2 {
 }
 
 p {
-    text-indent: 30px;
-
-    // Required for text indent; reset margins
-    display: inline-block;
     margin-top: 10px;
     margin-bottom: 0px;
+    display: inline-block;
+    text-indent: 30px;
+
+    &#intro {
+        text-indent: 0px;
+        font-size: 18pt;
+        line-height: 1.2em;
+
+        .leader {
+            font-size: 24pt;
+            margin-bottom: 15px;
+            display: block;
+        }
+    }
 }
 
 img {
@@ -102,4 +112,3 @@ img {
     border-radius: 50%;
     box-shadow: 0px 5px 5px #777;
 }
-
