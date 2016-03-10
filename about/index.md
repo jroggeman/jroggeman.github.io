@@ -3,7 +3,7 @@ layout: default
 ---
 
 # About
-<div class="card">
+<div class="card non-list">
 I like to:
 
 - Program
