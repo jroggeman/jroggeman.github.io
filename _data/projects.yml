@@ -10,6 +10,33 @@
 - name: Examinatr
   url: https://github.com/jroggeman/examinatr
   summary: Create and manage exams.
-  description: Examinatr is another Rails app I created during my senior year in college
+  description: Examinatr is a Rails app I created during my senior year in college
       to manage exams for a professor.  It started as an ordinary Rails app, but has grown
       into an SPA (and an excuse to learn Ember).
+
+- name: Bessemer
+  url: https://github.com/jroggeman/bessemer
+  summary: An educational toy compiler
+  description: At the end of a compilers course in college, we created a small compiler
+      as a project, but it was rushed and rather buggy.  To get a better feel for
+      compiler development and implementation, I'm creating another one with a focus
+      on software quality and testing.  Ideally, I'd like to provide a useful resource
+      to anybody interested in the inner workings of a compiler.
+
+- name: SwipeMe
+  url: https://github.com/SwipeMe/SwipeMe
+  summary: Uber for dining hall swipes
+  description: As the final project for a web apps class, my team created
+      a web app designed to match those with extra dining hall swipes with those that
+      are looking for swipes.  Using text messages (via Twilio), those with extra
+      swipes check in at a particular hall, and those looking for swipes text our
+      system saying they're looking for a swipe; our system informs both users if
+      they've been paired, handling a variety of edge cases.
+
+- name: Chi-Learn
+  url: https://github.com/chi-learn/chi-learn
+  summary: Using ML to predict crime
+  description: As the final project for a machine learning class, my team ran an experiment
+      on publicly available crime data from Chicago, trying to figure out if any 
+      machine learning models would be able to predict the likelihood of crime
+      on a given day (using data up to the previous day).
