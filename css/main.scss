@@ -55,7 +55,7 @@ h2 {
         background-color: white;
 
         h2 {
-            margin-bottom: 10px;
+            margin-bottom: 0px;
             margin-top: 0px;
 
             .subheading {
@@ -73,7 +73,7 @@ h2 {
 
             // Required for text indent; reset margins
             display: inline-block;
-            margin-top: 0px;
+            margin-top: 10px;
             margin-bottom: 0px;
         }
 
