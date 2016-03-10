@@ -1,0 +1,11 @@
+- title: Hobbies
+  content: Thought I do love programming, I _occasionally_ have to take breaks.
+      When I'm not programming, you'll likely find me baking sweet things, attempting
+      to play drums, or playing indie video games.
+
+- title: CS Specialization
+  content: Right now, my favorite area of CS is compiler design.  After implementing
+      a toy compiler for a class in college, I started working on an educational
+      compiler, the goal being to provide a well-constructed simple compiler as a
+      learning resource.  I'm also interested in systems programming, and backend
+      web development (usually with Rails).
