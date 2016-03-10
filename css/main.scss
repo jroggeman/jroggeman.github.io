@@ -27,6 +27,19 @@ h1 {
 h2 {
     @extend .heading;
     font-size: 1.8em;
+
+    // No margins, easier to use in cards
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+    .subheading {
+        font-family: Helvetica;
+        font-weight: normal;
+        font-size: 0.8em;
+        color: #888;
+        margin-left: 8px;
+        line-height: 1.2em;
+    }
 }
 
 // Simple wrapper
@@ -43,58 +56,40 @@ h2 {
 
     background-color: #D8D8D8;
     box-shadow: 0px 5px 5px #929292;
-
-    @include size-less-than($desktop) {
-    }
 }
 
-#card-list {
+.card-list {
     li {
         // Visual
         list-style-type: none;
-        background-color: white;
-
         // Spacing
         margin-bottom: 10px;
-
-        // Material
-        box-shadow: 0px 1px 5px #AAA;
-        transition: box-shadow 0.2s;
-
-        &:hover {
-            box-shadow: 0px 5px 5px #AAA;
-        }
-
-        // Reset link, make div clickable
-        .card-wrapper {
-            padding: 15px;
-            color: black;
-            text-decoration: none;
-            display: block;
-            height: 100%;
-        }
     }
+}
 
-    h2 {
-        margin-bottom: 0px;
-        margin-top: 0px;
+.card {
+    padding: 15px;
+    color: black;
+    text-decoration: none;
+    display: block;
+    height: 100%;
 
-        .subheading {
-            font-family: Helvetica;
-            font-weight: normal;
-            font-size: 0.8em;
-            color: #888;
-            margin-left: 8px;
-            line-height: 1.2em;
-        }
+    background-color: white;
+
+    // Material
+    box-shadow: 0px 1px 5px #AAA;
+    transition: box-shadow 0.2s;
+
+    &:hover {
+        box-shadow: 0px 5px 5px #AAA;
     }
+}
 
-    p {
-        text-indent: 30px;
+p {
+    text-indent: 30px;
 
-        // Required for text indent; reset margins
-        display: inline-block;
-        margin-top: 10px;
-        margin-bottom: 0px;
-    }
+    // Required for text indent; reset margins
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
