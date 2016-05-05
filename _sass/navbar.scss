@@ -8,10 +8,10 @@ nav {
     color: white;
 
     // Item display
-    ul {
+    ul.nav-list {
         list-style-type: none;
 
-        li {
+        li.nav-item {
             @include size-greater-than($desktop) {
                 display: inline-block;
             }
