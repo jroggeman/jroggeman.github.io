@@ -148,8 +148,12 @@ img {
 
 a {
     color: $text-color;
-    font-weight: bold;
+    font-weight: bolder;
     text-decoration: none;
+
+    p {
+        font-weight: lighter;
+    }
 
     &:hover {
         text-decoration: underline;
