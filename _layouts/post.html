@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Joel Roggeman</title>
+        <title>{{ page.title }} | Joel Roggeman</title>
         <link rel="stylesheet" href="{{site.baseurl}}/css/main.css">
         <meta charset="UTF-8">
     </head>
@@ -9,7 +9,10 @@
     <body>
         {% include header.html %}
         <div class="container">
-        {{ content }}
+            <h1>{{ page.title }}</h1>
+            <div class="card">
+                {{ content }}
+            </div>
         </div>
         <script src="/scripts/main.js"></script>
     </body>
