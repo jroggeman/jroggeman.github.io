@@ -5,7 +5,7 @@ tags: [programming, compilers]
 ---
 Last spring, I took an introductory course on compiler design.  The course (and, for that matter, compilers in general) involved the application of many different branches of computer science, and culminated in the creation of a toy compiler for a subset of Java called _MiniJava_.  Though I thoroughly enjoyed the class, the project felt really rushed, so my final project felt a bit sloppy and buggy.
 
-It left me feeling unsatisfied, and I've wanted to get more involved with compilers since then.  So, now that the semester is over and I have a bit more free time, I've started a new compiler project: [Bessemer](http://github.com/jroggeman/bessemer), the educational compiler.
+It left me feeling unsatisfied, and I've wanted to get more involved with compilers since then.  So, now that the semester is over and I have a bit more free time, I've started a new compiler project: **[Bessemer](http://github.com/jroggeman/bessemer)**, the educational compiler.
 
 ## What is Bessemer?
 
