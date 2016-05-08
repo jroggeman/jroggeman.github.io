@@ -1,6 +1,7 @@
 ---
 layout: post
 title: A Compiler for Education
+tags: [programming, compilers]
 ---
 Last spring, I took an introductory course on compiler design.  The course (and, for that matter, compilers in general) involved the application of many different branches of computer science, and culminated in the creation of a toy compiler for a subset of Java called _MiniJava_.  Though I thoroughly enjoyed the class, the project felt really rushed, so my final project felt a bit sloppy and buggy.
 
