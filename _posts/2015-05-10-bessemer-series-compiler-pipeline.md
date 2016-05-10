@@ -2,6 +2,7 @@
 layout: post
 title: Bessemer Series&#58; Compiler Pipeline
 tags: [programming, compilers]
+date: 2015-05-10 00:00:00
 summary: A brief overview of the compiler pipeline.
 ---
 Before I start flooding the internet with a bunch of drivel about compilers, it would probably make sense to write a high-level overview about what compilers do and the general process by which they do it.
