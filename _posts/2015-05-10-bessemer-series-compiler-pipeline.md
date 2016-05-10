@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bessemer Series: Compiler Pipeline
+title: Bessemer Series&#58; Compiler Pipeline
 tags: [programming, compilers]
 summary: A brief overview of the compiler pipeline.
 ---
