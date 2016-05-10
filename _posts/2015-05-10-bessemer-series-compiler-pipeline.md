@@ -7,14 +7,14 @@ summary: A brief overview of the compiler pipeline.
 ---
 Before I start flooding the internet with a bunch of drivel about compilers, it would probably make sense to write a high-level overview about what compilers do and the general process by which they do it.
 
-## What Is A Compiler?
+## What Is A Compiler
 > A compiler is a computer program that transforms source code written in a programming language (the source language) into another computer language (the target language)
 
 That's it!  The simplest and most formal definition says that a compiler is just an automated translator.  It takes as input the text files making up your program(s), and outputs code in a different language.
 
 Now, most of the time, we're compiling a higher-level langauge like Java or C++ into some form of machine code like x86 or ARM; this is the more common definition of a compiler (probably the one you're familiar with), and is the one that I'll be using in these posts.
 
-## What Are the Intermediate Steps of Compilation?
+## Intermediate Steps of Compilation
 Compiling generally consists of the following steps, in order:
 
 1. **Lexing** - Processing the text of the source file, converting it into a set of _tokens_, or a single data structure representing each individual unit of meaning.  More on this later.
