@@ -9,6 +9,8 @@ $navbar-color: #082F36;
 $container-color: #082F36;
 //$card-color: #4C80A1;
 $card-color: #15434C;
+$card-quote-color: #123C44;
+$card-quote-text-color: #0E2E35;
 $shadow-color: rgba(0, 0, 0, 0.6);
 $text-color: #FFF;
 
@@ -157,5 +159,27 @@ a {
 
     &:hover {
         text-decoration: underline;
+    }
+}
+
+blockquote {
+    color: #DDD;
+    background: $card-quote-color;
+    border-left: 20px solid $card-quote-text-color;
+    padding: 1em 20px;
+    quotes: "\201C""\201D""\2018""\2019";
+    box-shadow: 0px 1px 5px $shadow-color;
+
+    &:before {
+        color: $card-quote-text-color;
+        content: open-quote;
+        font-size: 4em;
+        line-height: 0.1em;
+        margin-right: 0.25em;
+        vertical-align: -0.4em;
+    }
+
+    p {
+        display: inline;
     }
 }
