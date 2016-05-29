@@ -23,16 +23,6 @@
       on software quality and testing.  Ideally, I'd like to provide a useful resource
       to anybody interested in the inner workings of a compiler.
 
-- name: SwipeMe
-  url: https://github.com/SwipeMe/SwipeMe
-  summary: Uber for dining hall swipes
-  description: As the final project for a web apps class, my team created
-      a web app designed to match those with extra dining hall swipes with those that
-      are looking for swipes.  Using text messages (via Twilio), those with extra
-      swipes check in at a particular hall, and those looking for swipes text our
-      system saying they're looking for a swipe; our system informs both users if
-      they've been paired, handling a variety of edge cases.
-
 - name: Chi-Learn
   url: https://github.com/chi-learn/chi-learn
   summary: Using ML to predict crime
